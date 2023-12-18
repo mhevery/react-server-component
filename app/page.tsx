@@ -4,6 +4,8 @@ import { TableStatic } from "./table-static";
 import { TableDynamic } from "./table-dynamic";
 import { end, start } from "./measure";
 
+export const runtime = "edge";
+
 export default function Home({
   params,
   searchParams,
